@@ -1,0 +1,54 @@
+﻿生成启动时间为 2018/6/27 8:49:19。
+     1>项目“D:\VS2010\FT4.0\FT4.0\FT4.0.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FT.cpp main.cpp MdSpi.cpp Server.cpp TdSpi.cpp
+         TdSpi.cpp
+         Server.cpp
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2238: 意外的标记位于“;”之前
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2238: 意外的标记位于“;”之前
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(699): error C2039: “InsMgets”: 不是“Ins”的成员
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(699): error C2228: “.empty”的左边必须有类/结构/联合
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(699): error C2228: “.begin”的左边必须有类/结构/联合
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(699): error C3536: “pmg”:  初始化之前无法使用
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(699): error C2228: “.end”的左边必须有类/结构/联合
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(701): error C3536: “pmg”:  初始化之前无法使用
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(701): error C2227: “->name”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(703): error C2039: “InsMgets”: 不是“Ins”的成员
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(703): error C2228: “.push_back”的左边必须有类/结构/联合
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(713): error C2039: “InsMgets”: 不是“Ins”的成员
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\server.cpp(713): error C2228: “.push_back”的左边必须有类/结构/联合
+         MdSpi.cpp
+         main.cpp
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2238: 意外的标记位于“;”之前
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2238: 意外的标记位于“;”之前
+         FT.cpp
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(144): error C2238: 意外的标记位于“;”之前
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(158): error C2238: 意外的标记位于“;”之前
+     1>d:\vs2010\ft4.0\ft4.0\ft.cpp(51): error C2039: “stick”: 不是“Ins”的成员
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+     1>d:\vs2010\ft4.0\ft4.0\ft.cpp(51): error C2039: “bark”: 不是“Ins”的成员
+                 d:\vs2010\ft4.0\ft4.0\severdatatype_struct.h(151) : 参见“Ins”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\VS2010\FT4.0\FT4.0\FT4.0.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.28
